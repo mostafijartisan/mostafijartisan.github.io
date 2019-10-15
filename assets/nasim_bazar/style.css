@@ -1,0 +1,257 @@
+/* for word press support */
+img{max-width:100%}
+.alignleft { float:left;margin-right:15px}
+.alignright { float:right;margin-left:15px}
+.aligncenter { float:none;margin:0 auto}
+
+/* for my design */
+.left { float:left}
+.right { float:right}
+
+/* ------------- Bootstrap overwrite --------------- */
+/* header search bar */
+.form-control { border-color: #EEE;}
+.form-control:focus {
+border-color: #9DD063;
+outline: 0px none;
+box-shadow: 0px 1px 1px #EEE inset, 0px 0px 8px #9DD063;
+}
+
+/* header search button */
+.btn-default {font-family: 'Open Sans', sans-serif;
+font-weight: 600; color: #222; background-color:#fff;
+border-color: #EEE;}
+.btn-default:hover { background-color:#9DD063; color:#fff; border-color:#EEE;}
+
+/* -------------------------------------------------------------------------- */
+
+/* content areas */
+body{ font-family: "Open Sans", sans-serif; background:#fff}
+.container{}
+.row{}
+
+/*  "Open Sans",Arial,Verdana,sans-serif */
+
+
+/* header area */
+.header_area{margin-top:15px}
+.header {}
+.header_search{margin-top:20px}
+
+/* menu area */
+.menu_area{margin-top:10px; }
+.menu{}
+.menu_area .menu_bar {width:100%; float:left; border-top:4px solid #EEE; border-bottom:4px solid #EEE;}
+.menu_area .menu_bar ul { list-style:none; margin:0px; padding:0px; position:relative}
+.menu_area .menu_bar ul li { float:left; padding:0px 0px;}
+.menu_area .menu_bar ul li a {text-decoration:none; display:block; padding:10px 20px;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+line-height:1.5em; /*  1em=14px  */
+font-weight: 800;
+color:#222;
+text-transform: uppercase;}
+.menu_area .menu_bar ul li a:hover {color:#FFF;background:#9DD063}
+
+
+/* mega menu */
+.menu_area .menu_bar ul.mega_menu {position:absolute; padding:0px;
+ width:100%; height:420px; background:#fff; border-top:4px solid #EEE; list-style:none; z-index:+999; display:none;}
+.menu_area .menu_bar li:hover ul.mega_menu {display:block;}
+
+.menu_area .menu_bar ul.mega_menu li {float:left; width:272.5px; height:122px;
+margin-left:10px; margin-top:10px;}
+.menu_area .menu_bar ul.mega_menu li a {text-decoration:none; width:272.5px; height:122px; display:block; padding:0px;
+border:2px solid #EEE}
+.menu_area .menu_bar ul.mega_menu li a:hover {color:none; background:none;
+box-shadow:0px 13px 21px -5px #a9d973; border-color:#9DD063}
+/* box-shadow: 0px 0px 0px #EEE inset, 5px 5px 6px #9DD063; */
+.menu_area .menu_bar ul.mega_menu li a .mega_info{width:270.5px; height:120px;}
+.menu_area .menu_bar ul.mega_menu li a .text{width:150.5px; height:118px; float:left;}
+.menu_area .menu_bar ul.mega_menu li a .text h2{
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 600;
+color:#222;
+text-align:center;
+text-transform: none;
+margin-top:6px;
+margin-bottom:0px;
+}
+.menu_area .menu_bar ul.mega_menu li a  .text p{
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+/* a2b39f  a4a4b4 */
+font-weight: 600;
+color:#a4a4b4;   
+text-align: left;
+padding:5px;
+text-transform: none;
+margin-top:5px;
+margin-bottom:0px;
+}
+.menu_area .menu_bar ul.mega_menu li a .img {width:118px; height:118px; float:left;}
+.menu_area .menu_bar ul.mega_menu li a .img img{ margin-left:4px; margin-top:9px;}
+/* ------------------------------ mega menu end here ------------------------------------*/
+
+
+
+
+
+/* slider area */
+.slider_area{margin-top:15px}
+.slider{}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/*---------------------- main mix it up filter area ---------------------------- */
+.mix_filter_area{margin-top:15px;}
+.mix_it_up_filter{width:1140px;border-top:4px solid #EEE}
+
+.mix_filter_area .project_filter{margin-left:-14px; width:1140px;border-bottom:4px solid #EEEEEE}
+.mix_filter_area ul.project_menu{text-align:center;margin-top:8px}
+.mix_filter_area ul.project_menu li{
+font-weight:800;
+display:inline;
+padding:5px 20px;cursor:pointer;
+border-left:2px solid #EEE;}
+.mix_filter_area ul.project_menu li:hover{color:#9DD063}
+
+/* mix it up list area */
+.mix_list_area{}
+.mix_list_area .mix_it_up_list{}
+.mix_list_area .project_list{height:100px;background:yellow}
+
+/* mix it up effect active */
+.project_list .mix{display:none
+
+/* ---------------------------------------- main mix it up------------------------------- */
+
+
+.mix_list_area_test{ margin-top:30px;}
+.mix_list_test{}
+
+.product_block{width:220px; height:300px;  border:4px solid #EEE;
+margin-left:10px; margin-top:10px}
+.product_block_inner{width:210px; height:300px;}
+
+.product_block_image{width:210px; height:200px;}
+.product_block_image img{}
+
+.product_block_info{width:210px; height:60px; margin-top:30px;}
+
+.product_block_info_left{width:65%; height:60px; float:left;}
+.product_block_info_left h4{
+font-family: "Open Sans",sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #222;
+text-align: left;
+text-transform: none;
+margin-top: 6px;
+margin-left: 5px;
+margin-bottom: 0px;
+}
+.product_block_info_left p{
+font-family: "Open Sans",sans-serif;
+font-size: 14px;
+font-weight: 400;
+color:#A4A4B4;
+text-align: left;
+text-transform: none;
+margin-top: 7px;
+margin-left: 5px;
+margin-bottom: 0px;
+}
+
+.product_block_info_right{width:35%; height:60px; float:left;}
+.product_block_info_right h4{
+font-family: "Open Sans",sans-serif;
+font-size: 22px;
+font-weight: 600;
+color: #9DD063;
+text-align: center;
+text-transform: none;
+margin-top: 4px;
+margin-right: 2px;
+margin-bottom: 0px;
+}
+.product_block_info_right p{
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+font-weight: 600;
+color: red;
+text-align: center;
+text-transform: none;
+margin-top: 4px;
+margin-bottom: 0px;
+}
+
+/* hover effect jquery triiger */
+.animate{
+border-color:#9DD063;
+box-shadow:0px 13px 21px -5px #a9d973;
+-webkit-transition: 100ms ease-out; 
+-moz-transition:100ms ease-out; 
+-o-transition:100ms ease-out; 
+transition:100ms ease-out; 
+}
+
+/* rgba(0, 0, 0, 0.3) 
+top:10px;
+left:10px;
+width:220px;
+height:300px;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer_top area */
+.footer_top_area { margin-top:3000px; padding:120px 0px; background: url(img/footer_img.jpg) no-repeat
+fixed -60px 200px; background-size:cover}
+.footer_top_area .footer_top {}
+.footer_top_area .footer_top_h2 h2 { font-size:16px; font-weight: 600; color:#fff}
+.footer_top_area .footer_top_link {}
+.footer_top_area .footer_top_link ul  { overflow:hidden; margin:0px; padding:0px;}
+.footer_top_area .footer_top_link ul li { list-style:none; padding:2px 0px}
+.footer_top_area .footer_top_link ul li a { text-decoration:none; color:#fff}
+.footer_top_area .footer_top_link ul li a:hover { color:#9DD063}
+
+.footer_top_area  .footer_top_contact p {color:#fff; padding:2px 0px}
+
+.footer_top_pay{}
+
+
+
+
+
+/* footer_down area */
+.footer_down_area{ background:#D3EAB9}
+.footer{}
+
+.footer_down_area .footer_area_menu { margin-top:7px}
+.footer_down_area .footer_area_menu ul { overflow:hidden; margin:0px; padding:0px}
+.footer_down_area .footer_area_menu ul li { list-style:none; float:left; display:inline; padding:0px 0px}
+.footer_down_area .footer_area_menu ul li a { text-decoration:none; font-size:12px; font-weight:600; color:#333; padding:0px 5px;}
+.footer_down_area .footer_area_menu ul li a:hover { color:#9DD063}
+
+.footer_down_area p{ margin-top:9px; font-size:11px; color:#333} 
